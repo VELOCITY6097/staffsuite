@@ -5,6 +5,9 @@ from datetime import datetime, timezone
 from discord.ext import commands
 from dotenv import load_dotenv
 from utils.mongo import db
+from keep_alive import keep_alive
+
+keep_alive()
 
 # Load environment variables
 load_dotenv()
